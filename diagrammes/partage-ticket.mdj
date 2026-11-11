@@ -1,0 +1,6880 @@
+{
+	"_type": "Project",
+	"_id": "TKTTRANSF000001",
+	"name": "Tiketly — Sécurité",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "TKTTRANSF000002",
+			"_parent": {
+				"$ref": "TKTTRANSF000001"
+			},
+			"name": "Tiketly",
+			"ownedElements": [
+				{
+					"_type": "UMLCollaboration",
+					"_id": "TKTTRANSF000003",
+					"_parent": {
+						"$ref": "TKTTRANSF000002"
+					},
+					"name": "Partage de ticket",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "TKTTRANSF000004",
+							"_parent": {
+								"$ref": "TKTTRANSF000003"
+							},
+							"name": "Transfert d'un ticket par QR code",
+							"ownedElements": [
+								{
+									"_type": "UMLSequenceDiagram",
+									"_id": "TKTTRANSF000005",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Partage de ticket — fonctions de sécurité (avec activations)",
+									"defaultDiagram": true,
+									"showSequenceNumber": true,
+									"showActivation": true,
+									"ownedViews": [
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000007",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000006"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000008",
+													"_parent": {
+														"$ref": "TKTTRANSF000007"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000006"
+													}
+												}
+											],
+											"left": 40,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000008"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000010",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000009"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000011",
+													"_parent": {
+														"$ref": "TKTTRANSF000010"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000009"
+													}
+												}
+											],
+											"left": 245,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000011"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000013",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000012"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000014",
+													"_parent": {
+														"$ref": "TKTTRANSF000013"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000012"
+													}
+												}
+											],
+											"left": 450,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000014"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000016",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000015"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000017",
+													"_parent": {
+														"$ref": "TKTTRANSF000016"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000015"
+													}
+												}
+											],
+											"left": 655,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000017"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000019",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000018"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000020",
+													"_parent": {
+														"$ref": "TKTTRANSF000019"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000018"
+													}
+												}
+											],
+											"left": 860,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000020"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000022",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000021"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000023",
+													"_parent": {
+														"$ref": "TKTTRANSF000022"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000021"
+													}
+												}
+											],
+											"left": 1065,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000023"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000025",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000024"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000026",
+													"_parent": {
+														"$ref": "TKTTRANSF000025"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000024"
+													}
+												}
+											],
+											"left": 1270,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000026"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000028",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000027"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000029",
+													"_parent": {
+														"$ref": "TKTTRANSF000028"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000027"
+													}
+												}
+											],
+											"left": 1475,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000029"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTTRANSF000031",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000030"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTTRANSF000032",
+													"_parent": {
+														"$ref": "TKTTRANSF000031"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000030"
+													}
+												}
+											],
+											"left": 1680,
+											"top": 40,
+											"width": 175,
+											"height": 6949,
+											"linePart": {
+												"$ref": "TKTTRANSF000032"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000034",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000033"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:143;332.5:143",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000035",
+													"_parent": {
+														"$ref": "TKTTRANSF000034"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000033"
+													},
+													"left": 325.5,
+													"top": 143,
+													"width": 14,
+													"height": 1592
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000035"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000037",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000036"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:187;362.5:187;362.5:207;332.5:207",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000038",
+													"_parent": {
+														"$ref": "TKTTRANSF000037"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000036"
+													},
+													"left": 325.5,
+													"top": 207,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000038"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000040",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000039"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:241;537.5:241",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000041",
+													"_parent": {
+														"$ref": "TKTTRANSF000040"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000039"
+													},
+													"left": 530.5,
+													"top": 241,
+													"width": 14,
+													"height": 1214
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000041"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000043",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000042"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:285;567.5:285;567.5:305;537.5:305",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000044",
+													"_parent": {
+														"$ref": "TKTTRANSF000043"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000042"
+													},
+													"left": 530.5,
+													"top": 305,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000044"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000048",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000047"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:405;332.5:405",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000051",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000050"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:489;742.5:489",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000052",
+													"_parent": {
+														"$ref": "TKTTRANSF000051"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000050"
+													},
+													"left": 735.5,
+													"top": 489,
+													"width": 14,
+													"height": 966
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000052"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000054",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000053"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:533;772.5:533;772.5:553;742.5:553",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000055",
+													"_parent": {
+														"$ref": "TKTTRANSF000054"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000053"
+													},
+													"left": 735.5,
+													"top": 553,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000055"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000057",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000056"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:587;947.5:587",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000058",
+													"_parent": {
+														"$ref": "TKTTRANSF000057"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000056"
+													},
+													"left": 940.5,
+													"top": 587,
+													"width": 14,
+													"height": 824
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000058"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000060",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000059"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:631;1357.5:631",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000061",
+													"_parent": {
+														"$ref": "TKTTRANSF000060"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000059"
+													},
+													"left": 1350.5,
+													"top": 631,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000061"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000063",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000062"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:675;947.5:675",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000067",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000066"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:785;742.5:785",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000069",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000068"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:829;332.5:829",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000072",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000071"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:913;742.5:913",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000074",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000073"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:957;332.5:957",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000077",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000076"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1041;1357.5:1041",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000078",
+													"_parent": {
+														"$ref": "TKTTRANSF000077"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000076"
+													},
+													"left": 1350.5,
+													"top": 1041,
+													"width": 14,
+													"height": 34
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000078"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000080",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000079"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1085;1152.5:1085",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000081",
+													"_parent": {
+														"$ref": "TKTTRANSF000080"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000079"
+													},
+													"left": 1145.5,
+													"top": 1085,
+													"width": 14,
+													"height": 106
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000081"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000083",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000082"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1129;1182.5:1129;1182.5:1149;1152.5:1149",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000084",
+													"_parent": {
+														"$ref": "TKTTRANSF000083"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000082"
+													},
+													"left": 1145.5,
+													"top": 1149,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000084"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000086",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000085"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1183;947.5:1183",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000088",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000087"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1227;1152.5:1227",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000089",
+													"_parent": {
+														"$ref": "TKTTRANSF000088"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000087"
+													},
+													"left": 1145.5,
+													"top": 1227,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000089"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000091",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000090"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1271;947.5:1271",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000093",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000092"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1315;1357.5:1315",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000094",
+													"_parent": {
+														"$ref": "TKTTRANSF000093"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000092"
+													},
+													"left": 1350.5,
+													"top": 1315,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000094"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000096",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000095"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:1359;947.5:1359",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000098",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000097"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1403;742.5:1403",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000100",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000099"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:1447;332.5:1447",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000101",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000064"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000102",
+													"_parent": {
+														"$ref": "TKTTRANSF000101"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000064"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000103",
+															"_parent": {
+																"$ref": "TKTTRANSF000102"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000065"
+															},
+															"parentStyle": true,
+															"left": 244.5,
+															"top": 745,
+															"width": 1201,
+															"height": 128
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000104",
+															"_parent": {
+																"$ref": "TKTTRANSF000102"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000070"
+															},
+															"parentStyle": true,
+															"left": 244.5,
+															"top": 873,
+															"width": 1201,
+															"height": 128
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000105",
+															"_parent": {
+																"$ref": "TKTTRANSF000102"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000075"
+															},
+															"parentStyle": true,
+															"left": 244.5,
+															"top": 1001,
+															"width": 1201,
+															"height": 496
+														}
+													],
+													"left": 244.5,
+													"top": 745,
+													"width": 1201,
+													"height": 752
+												}
+											],
+											"left": 244.5,
+											"top": 719,
+											"width": 1201,
+											"height": 778,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000102"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000106",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000045"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000107",
+													"_parent": {
+														"$ref": "TKTTRANSF000106"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000045"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000108",
+															"_parent": {
+																"$ref": "TKTTRANSF000107"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000046"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 365,
+															"width": 1225,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000109",
+															"_parent": {
+																"$ref": "TKTTRANSF000107"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000049"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 449,
+															"width": 1225,
+															"height": 1072
+														}
+													],
+													"left": 232.5,
+													"top": 365,
+													"width": 1225,
+													"height": 1156
+												}
+											],
+											"left": 232.5,
+											"top": 339,
+											"width": 1225,
+											"height": 1182,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000107"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000113",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000112"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1605;537.5:1605",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000114",
+													"_parent": {
+														"$ref": "TKTTRANSF000113"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000112"
+													},
+													"left": 530.5,
+													"top": 1605,
+													"width": 14,
+													"height": 50
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000114"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000115",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000110"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000116",
+													"_parent": {
+														"$ref": "TKTTRANSF000115"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000110"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000117",
+															"_parent": {
+																"$ref": "TKTTRANSF000116"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000111"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 1565,
+															"width": 610,
+															"height": 90
+														}
+													],
+													"left": 232.5,
+													"top": 1565,
+													"width": 610,
+													"height": 90
+												}
+											],
+											"left": 232.5,
+											"top": 1539,
+											"width": 610,
+											"height": 116,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000116"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000119",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000118"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1673;362.5:1673;362.5:1693;332.5:1693",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000120",
+													"_parent": {
+														"$ref": "TKTTRANSF000119"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000118"
+													},
+													"left": 325.5,
+													"top": 1693,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000120"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000122",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000121"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1727;127.5:1727",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000124",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000123"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:1789;1562.5:1789",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000125",
+													"_parent": {
+														"$ref": "TKTTRANSF000124"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000123"
+													},
+													"left": 1555.5,
+													"top": 1789,
+													"width": 14,
+													"height": 238
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000125"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000127",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000126"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:1833;1592.5:1833;1592.5:1853;1562.5:1853",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000128",
+													"_parent": {
+														"$ref": "TKTTRANSF000127"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000126"
+													},
+													"left": 1555.5,
+													"top": 1853,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000128"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000132",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000131"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:1953;1767.5:1953",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000135",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000134"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:2037;1562.5:2037",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000136",
+													"_parent": {
+														"$ref": "TKTTRANSF000135"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000134"
+													},
+													"left": 1555.5,
+													"top": 2037,
+													"width": 14,
+													"height": 1324
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000136"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000138",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000137"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2081;1592.5:2081;1592.5:2101;1562.5:2101",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000139",
+													"_parent": {
+														"$ref": "TKTTRANSF000138"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000137"
+													},
+													"left": 1555.5,
+													"top": 2101,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000139"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000141",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000140"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2135;1592.5:2135;1592.5:2155;1562.5:2155",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000142",
+													"_parent": {
+														"$ref": "TKTTRANSF000141"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000140"
+													},
+													"left": 1555.5,
+													"top": 2155,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000142"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000146",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000145"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2255;1767.5:2255",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000149",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000148"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2339;537.5:2339",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000150",
+													"_parent": {
+														"$ref": "TKTTRANSF000149"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000148"
+													},
+													"left": 530.5,
+													"top": 2339,
+													"width": 14,
+													"height": 954
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000150"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000152",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000151"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:2383;567.5:2383;567.5:2403;537.5:2403",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000153",
+													"_parent": {
+														"$ref": "TKTTRANSF000152"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000151"
+													},
+													"left": 530.5,
+													"top": 2403,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000153"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000155",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000154"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:2437;742.5:2437",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000156",
+													"_parent": {
+														"$ref": "TKTTRANSF000155"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000154"
+													},
+													"left": 735.5,
+													"top": 2437,
+													"width": 14,
+													"height": 856
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000156"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000158",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000157"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:2481;772.5:2481;772.5:2501;742.5:2501",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000159",
+													"_parent": {
+														"$ref": "TKTTRANSF000158"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000157"
+													},
+													"left": 735.5,
+													"top": 2501,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000159"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000161",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000160"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:2535;947.5:2535",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000162",
+													"_parent": {
+														"$ref": "TKTTRANSF000161"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000160"
+													},
+													"left": 940.5,
+													"top": 2535,
+													"width": 14,
+													"height": 228
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000162"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000164",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000163"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:2579;1152.5:2579",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000165",
+													"_parent": {
+														"$ref": "TKTTRANSF000164"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000163"
+													},
+													"left": 1145.5,
+													"top": 2579,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000165"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000167",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000166"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:2623;947.5:2623",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000169",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000168"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:2667;1357.5:2667",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000170",
+													"_parent": {
+														"$ref": "TKTTRANSF000169"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000168"
+													},
+													"left": 1350.5,
+													"top": 2667,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000170"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000172",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000171"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:2711;947.5:2711",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000174",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000173"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:2755;742.5:2755",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000178",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000177"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:2865;1562.5:2865",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000181",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000180"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:2949;1562.5:2949",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000184",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000183"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3033;1562.5:3033",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000187",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000186"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3117;1562.5:3117",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000190",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000189"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3201;1562.5:3201",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000193",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000192"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3285;1562.5:3285",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000194",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000195",
+													"_parent": {
+														"$ref": "TKTTRANSF000194"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000175"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000196",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000176"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 2825,
+															"width": 1382,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000197",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000179"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 2909,
+															"width": 1382,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000198",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000182"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 2993,
+															"width": 1382,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000199",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000185"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 3077,
+															"width": 1382,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000200",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000188"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 3161,
+															"width": 1382,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000201",
+															"_parent": {
+																"$ref": "TKTTRANSF000195"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000191"
+															},
+															"parentStyle": true,
+															"left": 461.5,
+															"top": 3245,
+															"width": 1382,
+															"height": 90
+														}
+													],
+													"left": 461.5,
+													"top": 2825,
+													"width": 1382,
+													"height": 510
+												}
+											],
+											"left": 461.5,
+											"top": 2799,
+											"width": 1382,
+											"height": 536,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000195"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000203",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000202"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:3353;1767.5:3353",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000204",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000143"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000205",
+													"_parent": {
+														"$ref": "TKTTRANSF000204"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000143"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000206",
+															"_parent": {
+																"$ref": "TKTTRANSF000205"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000144"
+															},
+															"parentStyle": true,
+															"left": 449.5,
+															"top": 2215,
+															"width": 1406,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000207",
+															"_parent": {
+																"$ref": "TKTTRANSF000205"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000147"
+															},
+															"parentStyle": true,
+															"left": 449.5,
+															"top": 2299,
+															"width": 1406,
+															"height": 1104
+														}
+													],
+													"left": 449.5,
+													"top": 2215,
+													"width": 1406,
+													"height": 1188
+												}
+											],
+											"left": 449.5,
+											"top": 2189,
+											"width": 1406,
+											"height": 1214,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000205"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000208",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000129"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000209",
+													"_parent": {
+														"$ref": "TKTTRANSF000208"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000129"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000210",
+															"_parent": {
+																"$ref": "TKTTRANSF000209"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000130"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 1913,
+															"width": 1430,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000211",
+															"_parent": {
+																"$ref": "TKTTRANSF000209"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000133"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 1997,
+															"width": 1430,
+															"height": 1430
+														}
+													],
+													"left": 437.5,
+													"top": 1913,
+													"width": 1430,
+													"height": 1514
+												}
+											],
+											"left": 437.5,
+											"top": 1887,
+											"width": 1430,
+											"height": 1540,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000209"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000213",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000212"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3463;1562.5:3463",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000214",
+													"_parent": {
+														"$ref": "TKTTRANSF000213"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000212"
+													},
+													"left": 1555.5,
+													"top": 3463,
+													"width": 14,
+													"height": 1456
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000214"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000216",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000215"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:3507;537.5:3507",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000217",
+													"_parent": {
+														"$ref": "TKTTRANSF000216"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000215"
+													},
+													"left": 530.5,
+													"top": 3507,
+													"width": 14,
+													"height": 1344
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000217"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000219",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000218"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:3551;567.5:3551;567.5:3571;537.5:3571",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000220",
+													"_parent": {
+														"$ref": "TKTTRANSF000219"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000218"
+													},
+													"left": 530.5,
+													"top": 3571,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000220"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000222",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000221"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:3605;742.5:3605",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000223",
+													"_parent": {
+														"$ref": "TKTTRANSF000222"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000221"
+													},
+													"left": 735.5,
+													"top": 3605,
+													"width": 14,
+													"height": 1246
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000223"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000225",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000224"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3649;772.5:3649;772.5:3669;742.5:3669",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000226",
+													"_parent": {
+														"$ref": "TKTTRANSF000225"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000224"
+													},
+													"left": 735.5,
+													"top": 3669,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000226"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000228",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000227"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:3703;947.5:3703",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000229",
+													"_parent": {
+														"$ref": "TKTTRANSF000228"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000227"
+													},
+													"left": 940.5,
+													"top": 3703,
+													"width": 14,
+													"height": 842
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000229"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000231",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000230"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:3747;1357.5:3747",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000232",
+													"_parent": {
+														"$ref": "TKTTRANSF000231"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000230"
+													},
+													"left": 1350.5,
+													"top": 3747,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000232"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000234",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000233"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:3791;947.5:3791",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000238",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000237"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:3901;742.5:3901",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000241",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000240"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:3985;742.5:3985",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000244",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000243"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4069;742.5:4069",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000247",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000246"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4153;1357.5:4153",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000248",
+													"_parent": {
+														"$ref": "TKTTRANSF000247"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000246"
+													},
+													"left": 1350.5,
+													"top": 4153,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000248"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000250",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000249"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4197;742.5:4197",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000253",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000252"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4281;742.5:4281",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000256",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000255"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4365;742.5:4365",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000259",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000258"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4449;1357.5:4449",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000260",
+													"_parent": {
+														"$ref": "TKTTRANSF000259"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000258"
+													},
+													"left": 1350.5,
+													"top": 4449,
+													"width": 14,
+													"height": 34
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000260"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000262",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000261"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4493;1357.5:4493",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000263",
+													"_parent": {
+														"$ref": "TKTTRANSF000262"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000261"
+													},
+													"left": 1350.5,
+													"top": 4493,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000263"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000265",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000264"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4537;742.5:4537",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000266",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000267",
+													"_parent": {
+														"$ref": "TKTTRANSF000266"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000235"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000268",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000236"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 3861,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000269",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000239"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 3945,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000270",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000242"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4029,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000271",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000245"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4113,
+															"width": 1020,
+															"height": 128
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000272",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000251"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4241,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000273",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000254"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4325,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000274",
+															"_parent": {
+																"$ref": "TKTTRANSF000267"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000257"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4409,
+															"width": 1020,
+															"height": 178
+														}
+													],
+													"left": 437.5,
+													"top": 3861,
+													"width": 1020,
+													"height": 726
+												}
+											],
+											"left": 437.5,
+											"top": 3835,
+											"width": 1020,
+											"height": 752,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000267"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000278",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000277"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:4671;1562.5:4671",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000281",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000280"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:4755;1357.5:4755",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000282",
+													"_parent": {
+														"$ref": "TKTTRANSF000281"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000280"
+													},
+													"left": 1350.5,
+													"top": 4755,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000282"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000284",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000283"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:4799;742.5:4799",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000286",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000285"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:4843;1562.5:4843",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000287",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000275"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000288",
+													"_parent": {
+														"$ref": "TKTTRANSF000287"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000275"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000289",
+															"_parent": {
+																"$ref": "TKTTRANSF000288"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000276"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4631,
+															"width": 1430,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000290",
+															"_parent": {
+																"$ref": "TKTTRANSF000288"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000279"
+															},
+															"parentStyle": true,
+															"left": 437.5,
+															"top": 4715,
+															"width": 1430,
+															"height": 178
+														}
+													],
+													"left": 437.5,
+													"top": 4631,
+													"width": 1430,
+													"height": 262
+												}
+											],
+											"left": 437.5,
+											"top": 4605,
+											"width": 1430,
+											"height": 288,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000288"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000292",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000291"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:4911;1767.5:4911",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000296",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000295"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5039;537.5:5039",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000297",
+													"_parent": {
+														"$ref": "TKTTRANSF000296"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000295"
+													},
+													"left": 530.5,
+													"top": 5039,
+													"width": 14,
+													"height": 272
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000297"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000299",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000298"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:5083;742.5:5083",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000300",
+													"_parent": {
+														"$ref": "TKTTRANSF000299"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000298"
+													},
+													"left": 735.5,
+													"top": 5083,
+													"width": 14,
+													"height": 228
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000300"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000302",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000301"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:5127;947.5:5127",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000303",
+													"_parent": {
+														"$ref": "TKTTRANSF000302"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000301"
+													},
+													"left": 940.5,
+													"top": 5127,
+													"width": 14,
+													"height": 140
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000303"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000305",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000304"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:5171;1357.5:5171",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000306",
+													"_parent": {
+														"$ref": "TKTTRANSF000305"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000304"
+													},
+													"left": 1350.5,
+													"top": 5171,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000306"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000308",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000307"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:5215;947.5:5215",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000310",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000309"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:5259;742.5:5259",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000312",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000311"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:5303;332.5:5303",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000313",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000293"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000314",
+													"_parent": {
+														"$ref": "TKTTRANSF000313"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000293"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000315",
+															"_parent": {
+																"$ref": "TKTTRANSF000314"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000294"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 4999,
+															"width": 1225,
+															"height": 354
+														}
+													],
+													"left": 232.5,
+													"top": 4999,
+													"width": 1225,
+													"height": 354
+												}
+											],
+											"left": 232.5,
+											"top": 4973,
+											"width": 1225,
+											"height": 380,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000314"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000319",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000318"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5437;127.5:5437",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000322",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000321"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5521;127.5:5521",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000325",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000324"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5605;537.5:5605",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000326",
+													"_parent": {
+														"$ref": "TKTTRANSF000325"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000324"
+													},
+													"left": 530.5,
+													"top": 5605,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000326"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000328",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000327"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:5649;332.5:5649",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000330",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000329"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5693;127.5:5693",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000331",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000316"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000332",
+													"_parent": {
+														"$ref": "TKTTRANSF000331"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000316"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000333",
+															"_parent": {
+																"$ref": "TKTTRANSF000332"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000317"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 5397,
+															"width": 1430,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000334",
+															"_parent": {
+																"$ref": "TKTTRANSF000332"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000320"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 5481,
+															"width": 1430,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000335",
+															"_parent": {
+																"$ref": "TKTTRANSF000332"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000323"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 5565,
+															"width": 1430,
+															"height": 178
+														}
+													],
+													"left": 27.5,
+													"top": 5397,
+													"width": 1430,
+													"height": 346
+												}
+											],
+											"left": 27.5,
+											"top": 5371,
+											"width": 1430,
+											"height": 372,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000332"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000339",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000338"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:5845;332.5:5845",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000340",
+													"_parent": {
+														"$ref": "TKTTRANSF000339"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000338"
+													},
+													"left": 325.5,
+													"top": 5845,
+													"width": 14,
+													"height": 44
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000340"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000343",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000342"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:5929;362.5:5929;362.5:5949;332.5:5949",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000344",
+													"_parent": {
+														"$ref": "TKTTRANSF000343"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000342"
+													},
+													"left": 325.5,
+													"top": 5949,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000344"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000345",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000336"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000346",
+													"_parent": {
+														"$ref": "TKTTRANSF000345"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000336"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000347",
+															"_parent": {
+																"$ref": "TKTTRANSF000346"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000337"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 5805,
+															"width": 405,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000348",
+															"_parent": {
+																"$ref": "TKTTRANSF000346"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000341"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 5889,
+															"width": 405,
+															"height": 100
+														}
+													],
+													"left": 27.5,
+													"top": 5805,
+													"width": 405,
+													"height": 184
+												}
+											],
+											"left": 27.5,
+											"top": 5779,
+											"width": 405,
+											"height": 210,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000346"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000350",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000349"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:6007;537.5:6007",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000351",
+													"_parent": {
+														"$ref": "TKTTRANSF000350"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000349"
+													},
+													"left": 530.5,
+													"top": 6007,
+													"width": 14,
+													"height": 422
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000351"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000353",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000352"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:6051;742.5:6051",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000354",
+													"_parent": {
+														"$ref": "TKTTRANSF000353"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000352"
+													},
+													"left": 735.5,
+													"top": 6051,
+													"width": 14,
+													"height": 378
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000354"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000356",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000355"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:6095;947.5:6095",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000357",
+													"_parent": {
+														"$ref": "TKTTRANSF000356"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000355"
+													},
+													"left": 940.5,
+													"top": 6095,
+													"width": 14,
+													"height": 140
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000357"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000359",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000358"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:6139;1357.5:6139",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000360",
+													"_parent": {
+														"$ref": "TKTTRANSF000359"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000358"
+													},
+													"left": 1350.5,
+													"top": 6139,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000360"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000362",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000361"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:6183;947.5:6183",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000364",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000363"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:6227;742.5:6227",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000368",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000367"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:6337;332.5:6337",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000371",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000370"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000011"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:6421;332.5:6421",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTTRANSF000372",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000365"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTTRANSF000373",
+													"_parent": {
+														"$ref": "TKTTRANSF000372"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000365"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000374",
+															"_parent": {
+																"$ref": "TKTTRANSF000373"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000366"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 6297,
+															"width": 1225,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTTRANSF000375",
+															"_parent": {
+																"$ref": "TKTTRANSF000373"
+															},
+															"model": {
+																"$ref": "TKTTRANSF000369"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 6381,
+															"width": 1225,
+															"height": 90
+														}
+													],
+													"left": 232.5,
+													"top": 6297,
+													"width": 1225,
+													"height": 174
+												}
+											],
+											"left": 232.5,
+											"top": 6271,
+											"width": 1225,
+											"height": 200,
+											"operandCompartment": {
+												"$ref": "TKTTRANSF000373"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000377",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000376"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:6507;1562.5:6507",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000378",
+													"_parent": {
+														"$ref": "TKTTRANSF000377"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000376"
+													},
+													"left": 1555.5,
+													"top": 6507,
+													"width": 14,
+													"height": 360
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000378"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000380",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000379"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:6551;537.5:6551",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000381",
+													"_parent": {
+														"$ref": "TKTTRANSF000380"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000379"
+													},
+													"left": 530.5,
+													"top": 6551,
+													"width": 14,
+													"height": 272
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000381"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000383",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000382"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:6595;742.5:6595",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000384",
+													"_parent": {
+														"$ref": "TKTTRANSF000383"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000382"
+													},
+													"left": 735.5,
+													"top": 6595,
+													"width": 14,
+													"height": 228
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000384"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000386",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000385"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:6639;947.5:6639",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000387",
+													"_parent": {
+														"$ref": "TKTTRANSF000386"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000385"
+													},
+													"left": 940.5,
+													"top": 6639,
+													"width": 14,
+													"height": 140
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000387"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000389",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000388"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:6683;1357.5:6683",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTTRANSF000390",
+													"_parent": {
+														"$ref": "TKTTRANSF000389"
+													},
+													"model": {
+														"$ref": "TKTTRANSF000388"
+													},
+													"left": 1350.5,
+													"top": 6683,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTTRANSF000390"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000392",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000391"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:6727;947.5:6727",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000394",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000393"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:6771;742.5:6771",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000396",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000395"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:6815;1562.5:6815",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTTRANSF000398",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"model": {
+												"$ref": "TKTTRANSF000397"
+											},
+											"head": {
+												"$ref": "TKTTRANSF000032"
+											},
+											"tail": {
+												"$ref": "TKTTRANSF000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:6859;1767.5:6859",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000399",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "LÉGENDE — [SEC n°X] : fonction de sécurité n°X du rapport (28 points).  ⚠ : point faible relevé par l'audit.  Flèche pleine : appel ; pointillés : réponse.  Chaque requête porte « Authorization: Bearer <idToken> » : le détail de requireAuth / requireRole est dans auth.mdj.",
+											"fillColor": "#F2F2F2",
+											"left": 1925,
+											"top": 95,
+											"width": 420,
+											"height": 94
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000400",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE A — Le propriétaire génère le QR code (60 s)",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 197,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000401",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "(msg 1) Le bouton n'est affiché que pour un ticket « en attente » (ticket-list-item.jsx). Le backend revérifie de toute façon.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 235,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000402",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°16] (msg 4) Limite dédiée : 20 créations de QR par minute.  [SEC n°2, 4] Jeton Firebase vérifié, compte Tiketly obligatoire (sinon 401 / 403).",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 309,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000403",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°17] (msg 7) Paramètre validé par Zod : un uid mal formé est refusé avant toute requête SQL.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 557,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000404",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°15] (msg 9) Transaction + verrou sur la ligne du ticket : deux créations simultanées sont traitées l'une après l'autre.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 689,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000405",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°5, 14] (msg 9) Le ticket doit appartenir à l'utilisateur du jeton Firebase et être encore en attente.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1011,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000406",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°13] (msg 15) Un nouveau QR invalide le précédent : il n'y a jamais deux transferts en attente pour un ticket (index unique partiel).",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1065,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000407",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°7] (msg 17) 256 bits aléatoires (crypto) : impossible à deviner, même par essais répétés.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1197,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000408",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°9] (msg 21) Seule l'empreinte est stockée : une fuite de la base ne permet pas de rejouer un QR.  [SEC n°8] Expiration fixée par l'horloge de PostgreSQL.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1373,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000409",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "(msg 25) Un QR créé alors que l'écran est déjà fermé est annulé aussitôt : il ne sert à personne.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1619,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000410",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°10] (msg 27) Le QR ne contient qu'un préfixe et le jeton aléatoire : ni numéro de ticket, ni identifiant, ni donnée personnelle.  [SEC n°8] Le compte à rebours n'est qu'indicatif (calculé à partir de resteMs).",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 1741,
+											"width": 420,
+											"height": 78
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000411",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "⚠ (msg 27) Toute personne qui scanne ou photographie le QR pendant les 60 s peut l'accepter la première : le propriétaire ne choisit pas le destinataire.",
+											"fillColor": "#FFDCC2",
+											"left": 1925,
+											"top": 1827,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000412",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE B — Le destinataire scanne le QR et voit un aperçu",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 1897,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000413",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "(msg 33) Le préfixe « tiketly-transfert: » et le motif [A-Za-z0-9_-]{20,128} sont vérifiés dans l'app : un autre QR n'envoie aucune requête. La caméra s'éteint dès qu'un code est lu.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 2159,
+											"width": 420,
+											"height": 78
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000414",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°9, 18] (msg 42) Recherche par empreinte, requête paramétrée.  [SEC n°10] L'aperçu ne contient ni nom ni email du propriétaire.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 2769,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000415",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°8, 12] (msg 45) Expiration et usage unique contrôlés par le serveur dès l'aperçu.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 3323,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000416",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE C — Acceptation explicite, en une transaction  [SEC n°11, 12, 15]",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 3433,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000417",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°11] (msg 52) Rien n'est transféré sans cette confirmation : l'aperçu ne vaut pas autorisation.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 3487,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000418",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°5] (msg 55) Le destinataire est celui du jeton Firebase, jamais un identifiant envoyé par l'app.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 3619,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000419",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°15] (msg 58) Transfert et ticket verrouillés : une seconde acceptation simultanée attend la fin de la première, puis trouve le jeton consommé.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 3805,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000420",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°27] (msg 61) Idempotent : le destinataire qui réessaie après une coupure obtient le même résultat, sans second transfert.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 3999,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000421",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°12] (msg 68) Changement de propriétaire et consommation du jeton dans la même transaction : le transfert est définitif et le QR ne peut plus servir.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 4507,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000422",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°21] Les erreurs internes (5xx) ne renvoient que « Erreur interne du serveur ».",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 4925,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000423",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE D — Suivi côté propriétaire (toutes les 2 s) et fin du compte à rebours",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 4979,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000424",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°5] (msg 78) Seuls l'émetteur et le destinataire peuvent lire l'état d'un transfert : 404 pour tout autre compte.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 5341,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000425",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "⚠ (msg 75) Pas de limite dédiée sur /etat et /annuler : le suivi (30 requêtes/min) consomme la limite globale de 300 / 15 min, partagée par IP (et par tous derrière Render sans trust proxy).",
+											"fillColor": "#FFDCC2",
+											"left": 1925,
+											"top": 5411,
+											"width": 420,
+											"height": 78
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000426",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°8] (msg 84) Le serveur tranche : un transfert accepté à la dernière seconde est bien affiché comme transféré.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 5707,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000427",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE E — Annulation par le propriétaire",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 5761,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000428",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°5] (msg 92) Seul l'émetteur peut annuler, et seulement un QR encore en attente.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 6241,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000429",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "PARTIE F — Anti-rejeu : réutilisation d'un ancien QR  [SEC n°12]",
+											"fillColor": "#D6E6FF",
+											"left": 1925,
+											"top": 6477,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTTRANSF000430",
+											"_parent": {
+												"$ref": "TKTTRANSF000005"
+											},
+											"text": "[SEC n°12] (msg 101) Un jeton consommé, annulé ou expiré est refusé à chaque nouvelle tentative : un QR photographié ou partagé ne permet pas de transférer à nouveau le ticket.",
+											"fillColor": "#FFF6CC",
+											"left": 1925,
+											"top": 6873,
+											"width": 420,
+											"height": 78
+										}
+									]
+								}
+							],
+							"messages": [
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000033",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Transférer mon ticket »",
+									"source": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000036",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "envoyer.jsx monté (mountedRef = true)",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000039",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/tickets/:uid/transferts",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000042",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "limite 20/min + requireAuth + requireRole",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000047",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "429 / 401 / 403",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000050",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "route création (req.currentUser.id)",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000053",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Zod : uid du ticket = UUID",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000056",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "creer({ ticket, utilisateur })",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000059",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "BEGIN ; SELECT ticket … FOR UPDATE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000062",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "propriétaire, statut",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000066",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus INTROUVABLE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000068",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "404 (l'existence du ticket n'est pas révélée)",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000071",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus NON_TRANSFERABLE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000073",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "409 « ne peut plus être transféré »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000076",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "UPDATE ancien QR en attente → ANNULE / EXPIRE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000079",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "genererJeton()",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000082",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "randomBytes(32) → base64url",
+									"source": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000085",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "jeton (256 bits)",
+									"source": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000087",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "hacherJeton(jeton)",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000090",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "empreinte SHA-256",
+									"source": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000092",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "INSERT (jeton_hash, expire_le = now() + 60 s) ; COMMIT",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000095",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "uid, reste_ms (horloge de la base)",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000097",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "{ transfert, jeton }",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000099",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "201 { transfert: { uid, resteMs }, jeton }",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000112",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/transferts/:uid/annuler",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000118",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "deadline = Date.now() + resteMs",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000121",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "QR « tiketly-transfert:<jeton> » + compte à rebours",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000123",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Recevoir un ticket » (Historique)",
+									"source": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000126",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "useCameraPermissions()",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000131",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Autoriser la caméra » / « Ouvrir les réglages »",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000134",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "vise le QR du propriétaire",
+									"source": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000137",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "onBarcodeScanned : un seul scan traité",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000140",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "decodeTransfertQr() : préfixe + motif",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000145",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Ce QR code n'est pas un ticket Tiketly »",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000148",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/transferts/apercu { jeton }",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000151",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "limite 30/min + requireAuth + requireRole",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000154",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "route aperçu",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000157",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Zod : jeton ^[A-Za-z0-9_-]{20,128}$",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000160",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "apercu(jeton)",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000163",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "hacherJeton(jeton)",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000166",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "empreinte SHA-256",
+									"source": {
+										"$ref": "TKTTRANSF000021"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000168",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "SELECT … WHERE jeton_hash = $1",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000171",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "transfert + ticket (sans le propriétaire)",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000173",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "aperçu | null",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000177",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "404 « QR code invalide »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000180",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "409 « déjà utilisé ou annulé »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000183",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "410 « ce QR code a expiré »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000186",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "400 « votre propre ticket »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000189",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "409 « ne peut plus être transféré »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000192",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "200 { transfert: { uid, resteMs }, ticket }",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000202",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "n° du ticket, établissement, temps restant",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000212",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Accepter le transfert »",
+									"source": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000215",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/transferts/:uid/accepter { jeton }",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000218",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "limite 30/min + requireAuth + requireRole",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000221",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "route acceptation (destinataire = req.currentUser.id)",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000224",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Zod : uid = UUID, jeton bien formé",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000227",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "accepter({ uid, jeton, destinataire })",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000230",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "BEGIN ; SELECT … uid + jeton_hash FOR UPDATE OF tr, t",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000233",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "transfert + ticket verrouillés",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000237",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus INTROUVABLE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000240",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "même ticket (réponse réseau perdue)",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000243",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus DEJA_UTILISE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000246",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "UPDATE statut = EXPIRE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000249",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus EXPIRE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000252",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus PROPRE_TICKET",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000255",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus NON_TRANSFERABLE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000258",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "UPDATE ticket SET utilisateur = destinataire",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000261",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "UPDATE transfert : ACCEPTE, vers_utilisateur ; COMMIT",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000264",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "{ ticket }",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000277",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "404 / 409 / 410 / 400 + message",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000280",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "findByUid(ticket)",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000283",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "ticket",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000285",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "200 ticket",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000291",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Ticket reçu » ou message d'erreur",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000295",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "GET /api/transferts/:uid",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000298",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "requireAuth + requireRole → route état",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000301",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "etat({ uid, utilisateur })",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000304",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "SELECT … WHERE de_utilisateur = $2 OR vers_utilisateur = $2",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000307",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "statut, expire_le",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000309",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "statut (en attente dépassé → EXPIRE)",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000311",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "{ statut, resteMs } | 404",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000318",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Ticket transféré » (retiré de l'historique)",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000321",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« QR code expiré » + « Générer un nouveau QR »",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000324",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "GET /api/transferts/:uid (dernière vérification)",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000327",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "statut final",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000329",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Ticket transféré » ou « QR code expiré »",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000338",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "« Annuler le transfert »",
+									"source": {
+										"$ref": "TKTTRANSF000006"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000342",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "démontage : pendingRef encore défini",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000349",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/transferts/:uid/annuler",
+									"source": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000352",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "requireAuth + requireRole → route annulation",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000355",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "annuler({ uid, utilisateur })",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000358",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "UPDATE … WHERE de_utilisateur = $2 AND statut = EN_ATTENTE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000361",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "lignes modifiées (0 ou 1)",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000363",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "annulé ?",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000367",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "409 « n'est plus en attente »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000370",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "200 { uid }",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000376",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "scanne une photo d'un QR déjà utilisé",
+									"source": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000379",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "POST /api/transferts/apercu (ou /accepter)",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000382",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "contrôles d'accès puis route",
+									"source": {
+										"$ref": "TKTTRANSF000012"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000385",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "apercu / accepter (même jeton)",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000388",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "recherche par jeton_hash",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000391",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "statut ACCEPTE / ANNULE / EXPIRE",
+									"source": {
+										"$ref": "TKTTRANSF000024"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000393",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "refus DEJA_UTILISE ou EXPIRE",
+									"source": {
+										"$ref": "TKTTRANSF000018"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000395",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "409 « déjà utilisé » / 410 « expiré »",
+									"source": {
+										"$ref": "TKTTRANSF000015"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTTRANSF000397",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "message d'erreur, aucun transfert",
+									"source": {
+										"$ref": "TKTTRANSF000027"
+									},
+									"target": {
+										"$ref": "TKTTRANSF000030"
+									},
+									"messageSort": "reply"
+								}
+							],
+							"participants": [
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000006",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Propriétaire"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000009",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "App propriétaire (envoyer)"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000012",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Backend : middlewares"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000015",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "transferts.routes.js"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000018",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "transferts.repository.js"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000021",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "transfert-jeton.js"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000024",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "PostgreSQL (Neon)"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000027",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "App destinataire (recevoir)"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTTRANSF000030",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Destinataire"
+								}
+							],
+							"fragments": [
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000045",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Accès",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000046",
+											"_parent": {
+												"$ref": "TKTTRANSF000045"
+											},
+											"guard": "limite dépassée, jeton invalide ou compte absent"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000049",
+											"_parent": {
+												"$ref": "TKTTRANSF000045"
+											},
+											"guard": "autorisé"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000064",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Ticket",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000065",
+											"_parent": {
+												"$ref": "TKTTRANSF000064"
+											},
+											"guard": "inexistant ou appartenant à un autre"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000070",
+											"_parent": {
+												"$ref": "TKTTRANSF000064"
+											},
+											"guard": "ticket plus « en attente »"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000075",
+											"_parent": {
+												"$ref": "TKTTRANSF000064"
+											},
+											"guard": "propriétaire et ticket en attente"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000110",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Écran quitté pendant la création",
+									"interactionOperator": "opt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000111",
+											"_parent": {
+												"$ref": "TKTTRANSF000110"
+											},
+											"guard": "mountedRef = false à la réponse"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000129",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Caméra",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000130",
+											"_parent": {
+												"$ref": "TKTTRANSF000129"
+											},
+											"guard": "permission refusée"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000133",
+											"_parent": {
+												"$ref": "TKTTRANSF000129"
+											},
+											"guard": "permission accordée"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000143",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Contenu du QR",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000144",
+											"_parent": {
+												"$ref": "TKTTRANSF000143"
+											},
+											"guard": "QR étranger à Tiketly"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000147",
+											"_parent": {
+												"$ref": "TKTTRANSF000143"
+											},
+											"guard": "jeton bien formé"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000175",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Contrôles de l'aperçu",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000176",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "aucun transfert pour ce jeton"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000179",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "transfert déjà accepté ou annulé"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000182",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "expiré (horloge de la base)"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000185",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "son propre ticket"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000188",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "ticket plus « en attente »"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000191",
+											"_parent": {
+												"$ref": "TKTTRANSF000175"
+											},
+											"guard": "transfert valide"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000235",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Conditions revérifiées",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000236",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "uid + empreinte introuvables"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000239",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "déjà accepté par ce même destinataire"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000242",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "transfert plus en attente (accepté, annulé, expiré)"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000245",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "expiré : expire_le ≤ now()"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000251",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "le destinataire est le propriétaire"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000254",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "propriétaire changé ou ticket plus en attente"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000257",
+											"_parent": {
+												"$ref": "TKTTRANSF000235"
+											},
+											"guard": "toutes les conditions sont remplies"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000275",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Réponse au destinataire",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000276",
+											"_parent": {
+												"$ref": "TKTTRANSF000275"
+											},
+											"guard": "refus"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000279",
+											"_parent": {
+												"$ref": "TKTTRANSF000275"
+											},
+											"guard": "transfert accepté"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000293",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Suivi du transfert",
+									"interactionOperator": "loop",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000294",
+											"_parent": {
+												"$ref": "TKTTRANSF000293"
+											},
+											"guard": "toutes les 2 s tant que le QR est affiché"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000316",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Résultat",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000317",
+											"_parent": {
+												"$ref": "TKTTRANSF000316"
+											},
+											"guard": "statut = ACCEPTE"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000320",
+											"_parent": {
+												"$ref": "TKTTRANSF000316"
+											},
+											"guard": "statut = EXPIRE ou ANNULE"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000323",
+											"_parent": {
+												"$ref": "TKTTRANSF000316"
+											},
+											"guard": "compte à rebours à 0"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000336",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Déclencheur",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000337",
+											"_parent": {
+												"$ref": "TKTTRANSF000336"
+											},
+											"guard": "bouton « Annuler le transfert »"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000341",
+											"_parent": {
+												"$ref": "TKTTRANSF000336"
+											},
+											"guard": "écran quitté avant utilisation du QR"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTTRANSF000365",
+									"_parent": {
+										"$ref": "TKTTRANSF000004"
+									},
+									"name": "Annulation",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000366",
+											"_parent": {
+												"$ref": "TKTTRANSF000365"
+											},
+											"guard": "QR déjà utilisé, expiré ou d'un autre"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTTRANSF000369",
+											"_parent": {
+												"$ref": "TKTTRANSF000365"
+											},
+											"guard": "QR annulé"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

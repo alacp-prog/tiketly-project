@@ -1,0 +1,4964 @@
+{
+	"_type": "Project",
+	"_id": "TKTLOGIN000001",
+	"name": "Tiketly — Sécurité",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "TKTLOGIN000002",
+			"_parent": {
+				"$ref": "TKTLOGIN000001"
+			},
+			"name": "Tiketly",
+			"ownedElements": [
+				{
+					"_type": "UMLCollaboration",
+					"_id": "TKTLOGIN000003",
+					"_parent": {
+						"$ref": "TKTLOGIN000002"
+					},
+					"name": "Connexion",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "TKTLOGIN000004",
+							"_parent": {
+								"$ref": "TKTLOGIN000003"
+							},
+							"name": "Parcours de connexion",
+							"ownedElements": [
+								{
+									"_type": "UMLSequenceDiagram",
+									"_id": "TKTLOGIN000005",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Login — fonctions de sécurité (avec activations)",
+									"defaultDiagram": true,
+									"showSequenceNumber": true,
+									"showActivation": true,
+									"ownedViews": [
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000007",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000006"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000008",
+													"_parent": {
+														"$ref": "TKTLOGIN000007"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000006"
+													}
+												}
+											],
+											"left": 40,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000008"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000010",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000009"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000011",
+													"_parent": {
+														"$ref": "TKTLOGIN000010"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000009"
+													}
+												}
+											],
+											"left": 245,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000011"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000013",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000012"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000014",
+													"_parent": {
+														"$ref": "TKTLOGIN000013"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000012"
+													}
+												}
+											],
+											"left": 450,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000014"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000016",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000015"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000017",
+													"_parent": {
+														"$ref": "TKTLOGIN000016"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000015"
+													}
+												}
+											],
+											"left": 655,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000017"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000019",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000018"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000020",
+													"_parent": {
+														"$ref": "TKTLOGIN000019"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000018"
+													}
+												}
+											],
+											"left": 860,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000020"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000022",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000021"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000023",
+													"_parent": {
+														"$ref": "TKTLOGIN000022"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000021"
+													}
+												}
+											],
+											"left": 1065,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000023"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000025",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000024"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000026",
+													"_parent": {
+														"$ref": "TKTLOGIN000025"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000024"
+													}
+												}
+											],
+											"left": 1270,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000026"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000028",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000027"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000029",
+													"_parent": {
+														"$ref": "TKTLOGIN000028"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000027"
+													}
+												}
+											],
+											"left": 1475,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000029"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000031",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000030"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000032",
+													"_parent": {
+														"$ref": "TKTLOGIN000031"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000030"
+													}
+												}
+											],
+											"left": 1680,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000032"
+											}
+										},
+										{
+											"_type": "UMLSeqLifelineView",
+											"_id": "TKTLOGIN000034",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000033"
+											},
+											"subViews": [
+												{
+													"_type": "UMLLinePartView",
+													"_id": "TKTLOGIN000035",
+													"_parent": {
+														"$ref": "TKTLOGIN000034"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000033"
+													}
+												}
+											],
+											"left": 1885,
+											"top": 40,
+											"width": 175,
+											"height": 4633,
+											"linePart": {
+												"$ref": "TKTLOGIN000035"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000037",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000036"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:143;332.5:143",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000038",
+													"_parent": {
+														"$ref": "TKTLOGIN000037"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000036"
+													},
+													"left": 325.5,
+													"top": 143,
+													"width": 14,
+													"height": 408
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000038"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000040",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000039"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:187;362.5:187;362.5:207;332.5:207",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000041",
+													"_parent": {
+														"$ref": "TKTLOGIN000040"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000039"
+													},
+													"left": 325.5,
+													"top": 207,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000041"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000043",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000042"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:241;947.5:241",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000044",
+													"_parent": {
+														"$ref": "TKTLOGIN000043"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000042"
+													},
+													"left": 940.5,
+													"top": 241,
+													"width": 14,
+													"height": 106
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000044"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000046",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000045"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:285;977.5:285;977.5:305;947.5:305",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000047",
+													"_parent": {
+														"$ref": "TKTLOGIN000046"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000045"
+													},
+													"left": 940.5,
+													"top": 305,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000047"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000049",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000048"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:339;332.5:339",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000053",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000052"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:449;362.5:449;362.5:469;332.5:469",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000054",
+													"_parent": {
+														"$ref": "TKTLOGIN000053"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000052"
+													},
+													"left": 325.5,
+													"top": 469,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000054"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000057",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000056"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:543;127.5:543",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000059",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000058"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:587;332.5:587",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000060",
+													"_parent": {
+														"$ref": "TKTLOGIN000059"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000058"
+													},
+													"left": 325.5,
+													"top": 587,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000060"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000062",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000061"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:631;127.5:631",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000063",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000050"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000064",
+													"_parent": {
+														"$ref": "TKTLOGIN000063"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000050"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000065",
+															"_parent": {
+																"$ref": "TKTLOGIN000064"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000051"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 409,
+															"width": 1020,
+															"height": 94
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000066",
+															"_parent": {
+																"$ref": "TKTLOGIN000064"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000055"
+															},
+															"parentStyle": true,
+															"left": 27.5,
+															"top": 503,
+															"width": 1020,
+															"height": 178
+														}
+													],
+													"left": 27.5,
+													"top": 409,
+													"width": 1020,
+													"height": 272
+												}
+											],
+											"left": 27.5,
+											"top": 383,
+											"width": 1020,
+											"height": 298,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000064"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000068",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000067"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:717;332.5:717",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000069",
+													"_parent": {
+														"$ref": "TKTLOGIN000068"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000067"
+													},
+													"left": 325.5,
+													"top": 717,
+													"width": 14,
+													"height": 888
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000069"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000071",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000070"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:761;537.5:761",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000072",
+													"_parent": {
+														"$ref": "TKTLOGIN000071"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000070"
+													},
+													"left": 530.5,
+													"top": 761,
+													"width": 14,
+													"height": 800
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000072"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000074",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000073"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:805;567.5:805;567.5:825;537.5:825",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000075",
+													"_parent": {
+														"$ref": "TKTLOGIN000074"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000073"
+													},
+													"left": 530.5,
+													"top": 825,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000075"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000077",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000076"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:859;742.5:859",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000078",
+													"_parent": {
+														"$ref": "TKTLOGIN000077"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000076"
+													},
+													"left": 735.5,
+													"top": 859,
+													"width": 14,
+													"height": 34
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000078"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000080",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000079"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:903;742.5:903",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000081",
+													"_parent": {
+														"$ref": "TKTLOGIN000080"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000079"
+													},
+													"left": 735.5,
+													"top": 903,
+													"width": 14,
+													"height": 658
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000081"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000083",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000082"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:947;127.5:947",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000084",
+													"_parent": {
+														"$ref": "TKTLOGIN000083"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000082"
+													},
+													"left": 120.5,
+													"top": 947,
+													"width": 14,
+													"height": 614
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000084"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000086",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000085"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:991;742.5:991",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000087",
+													"_parent": {
+														"$ref": "TKTLOGIN000086"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000085"
+													},
+													"left": 735.5,
+													"top": 991,
+													"width": 14,
+													"height": 570
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000087"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000091",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000090"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:1101;537.5:1101",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000093",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000092"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:1145;947.5:1145",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000094",
+													"_parent": {
+														"$ref": "TKTLOGIN000093"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000092"
+													},
+													"left": 940.5,
+													"top": 1145,
+													"width": 14,
+													"height": 106
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000094"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000096",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000095"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1189;977.5:1189;977.5:1209;947.5:1209",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000097",
+													"_parent": {
+														"$ref": "TKTLOGIN000096"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000095"
+													},
+													"left": 940.5,
+													"top": 1209,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000097"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000099",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000098"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1243;537.5:1243",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000101",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000100"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:1287;332.5:1287",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000103",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000102"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1331;362.5:1331;362.5:1351;332.5:1351",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000104",
+													"_parent": {
+														"$ref": "TKTLOGIN000103"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000102"
+													},
+													"left": 325.5,
+													"top": 1351,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000104"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000107",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000106"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"lineStyle": 2,
+											"points": "742.5:1425;537.5:1425",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000109",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000108"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:1469;332.5:1469",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000112",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000111"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:1553;332.5:1553",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000114",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000113"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1597;127.5:1597",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000115",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000088"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000116",
+													"_parent": {
+														"$ref": "TKTLOGIN000115"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000088"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000117",
+															"_parent": {
+																"$ref": "TKTLOGIN000116"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000089"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 1061,
+															"width": 815,
+															"height": 324
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000118",
+															"_parent": {
+																"$ref": "TKTLOGIN000116"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000105"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 1385,
+															"width": 815,
+															"height": 128
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000119",
+															"_parent": {
+																"$ref": "TKTLOGIN000116"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000110"
+															},
+															"parentStyle": true,
+															"left": 232.5,
+															"top": 1513,
+															"width": 815,
+															"height": 134
+														}
+													],
+													"left": 232.5,
+													"top": 1061,
+													"width": 815,
+													"height": 586
+												}
+											],
+											"left": 232.5,
+											"top": 1035,
+											"width": 815,
+											"height": 612,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000116"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000121",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000120"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1683;362.5:1683;362.5:1703;332.5:1703",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000122",
+													"_parent": {
+														"$ref": "TKTLOGIN000121"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000120"
+													},
+													"left": 325.5,
+													"top": 1703,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000122"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000124",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000123"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1737;362.5:1737;362.5:1757;332.5:1757",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000125",
+													"_parent": {
+														"$ref": "TKTLOGIN000124"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000123"
+													},
+													"left": 325.5,
+													"top": 1757,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000125"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000127",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000126"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:1791;1152.5:1791",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000128",
+													"_parent": {
+														"$ref": "TKTLOGIN000127"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000126"
+													},
+													"left": 1145.5,
+													"top": 1791,
+													"width": 14,
+													"height": 1784
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000128"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000130",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000129"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1835;947.5:1835",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000131",
+													"_parent": {
+														"$ref": "TKTLOGIN000130"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000129"
+													},
+													"left": 940.5,
+													"top": 1835,
+													"width": 14,
+													"height": 34
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000131"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000133",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000132"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1879;947.5:1879",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000134",
+													"_parent": {
+														"$ref": "TKTLOGIN000133"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000132"
+													},
+													"left": 940.5,
+													"top": 1879,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000134"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000136",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000135"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:1923;1152.5:1923",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000138",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000137"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:1967;1357.5:1967",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000139",
+													"_parent": {
+														"$ref": "TKTLOGIN000138"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000137"
+													},
+													"left": 1350.5,
+													"top": 1967,
+													"width": 14,
+													"height": 1280
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000139"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000141",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000140"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:2011;1387.5:2011;1387.5:2031;1357.5:2031",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000142",
+													"_parent": {
+														"$ref": "TKTLOGIN000141"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000140"
+													},
+													"left": 1350.5,
+													"top": 2031,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000142"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000146",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000145"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:2131;1152.5:2131",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000149",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000148"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:2215;1562.5:2215",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000150",
+													"_parent": {
+														"$ref": "TKTLOGIN000149"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000148"
+													},
+													"left": 1555.5,
+													"top": 2215,
+													"width": 14,
+													"height": 1032
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000150"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000154",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000153"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2325;1152.5:2325",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000157",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000156"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2409;1592.5:2409;1592.5:2429;1562.5:2429",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000158",
+													"_parent": {
+														"$ref": "TKTLOGIN000157"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000156"
+													},
+													"left": 1555.5,
+													"top": 2429,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000158"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000162",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000161"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2529;1152.5:2529",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000165",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000164"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:2613;1767.5:2613",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000166",
+													"_parent": {
+														"$ref": "TKTLOGIN000165"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000164"
+													},
+													"left": 1760.5,
+													"top": 2613,
+													"width": 14,
+													"height": 634
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000166"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000168",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000167"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:2657;1972.5:2657",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000169",
+													"_parent": {
+														"$ref": "TKTLOGIN000168"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000167"
+													},
+													"left": 1965.5,
+													"top": 2657,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000169"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000171",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000170"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"lineStyle": 2,
+											"points": "1972.5:2701;1767.5:2701",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000175",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000174"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:2811;1972.5:2811",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000176",
+													"_parent": {
+														"$ref": "TKTLOGIN000175"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000174"
+													},
+													"left": 1965.5,
+													"top": 2811,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000176"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000178",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000177"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:2855;1152.5:2855",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000181",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000180"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:2939;1152.5:2939",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000184",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000183"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3023;1972.5:3023",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000185",
+													"_parent": {
+														"$ref": "TKTLOGIN000184"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000183"
+													},
+													"left": 1965.5,
+													"top": 3023,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000185"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000187",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000186"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"lineStyle": 2,
+											"points": "1972.5:3067;1767.5:3067",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000189",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000188"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3111;1152.5:3111",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000192",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000191"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3195;1972.5:3195",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000193",
+													"_parent": {
+														"$ref": "TKTLOGIN000192"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000191"
+													},
+													"left": 1965.5,
+													"top": 3195,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000193"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000195",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000194"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3239;1152.5:3239",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000196",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000172"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000197",
+													"_parent": {
+														"$ref": "TKTLOGIN000196"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000172"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000198",
+															"_parent": {
+																"$ref": "TKTLOGIN000197"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000173"
+															},
+															"parentStyle": true,
+															"left": 1088.5,
+															"top": 2771,
+															"width": 948,
+															"height": 128
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000199",
+															"_parent": {
+																"$ref": "TKTLOGIN000197"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000179"
+															},
+															"parentStyle": true,
+															"left": 1088.5,
+															"top": 2899,
+															"width": 948,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000200",
+															"_parent": {
+																"$ref": "TKTLOGIN000197"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000182"
+															},
+															"parentStyle": true,
+															"left": 1088.5,
+															"top": 2983,
+															"width": 948,
+															"height": 172
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000201",
+															"_parent": {
+																"$ref": "TKTLOGIN000197"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000190"
+															},
+															"parentStyle": true,
+															"left": 1088.5,
+															"top": 3155,
+															"width": 948,
+															"height": 134
+														}
+													],
+													"left": 1088.5,
+													"top": 2771,
+													"width": 948,
+													"height": 518
+												}
+											],
+											"left": 1088.5,
+											"top": 2745,
+											"width": 948,
+											"height": 544,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000197"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000202",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000159"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000203",
+													"_parent": {
+														"$ref": "TKTLOGIN000202"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000159"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000204",
+															"_parent": {
+																"$ref": "TKTLOGIN000203"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000160"
+															},
+															"parentStyle": true,
+															"left": 1076.5,
+															"top": 2489,
+															"width": 972,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000205",
+															"_parent": {
+																"$ref": "TKTLOGIN000203"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000163"
+															},
+															"parentStyle": true,
+															"left": 1076.5,
+															"top": 2573,
+															"width": 972,
+															"height": 740
+														}
+													],
+													"left": 1076.5,
+													"top": 2489,
+													"width": 972,
+													"height": 824
+												}
+											],
+											"left": 1076.5,
+											"top": 2463,
+											"width": 972,
+											"height": 850,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000203"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000206",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000151"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000207",
+													"_parent": {
+														"$ref": "TKTLOGIN000206"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000151"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000208",
+															"_parent": {
+																"$ref": "TKTLOGIN000207"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000152"
+															},
+															"parentStyle": true,
+															"left": 1064.5,
+															"top": 2285,
+															"width": 996,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000209",
+															"_parent": {
+																"$ref": "TKTLOGIN000207"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000155"
+															},
+															"parentStyle": true,
+															"left": 1064.5,
+															"top": 2369,
+															"width": 996,
+															"height": 968
+														}
+													],
+													"left": 1064.5,
+													"top": 2285,
+													"width": 996,
+													"height": 1052
+												}
+											],
+											"left": 1064.5,
+											"top": 2259,
+											"width": 996,
+											"height": 1078,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000207"
+											}
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000210",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000143"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000211",
+													"_parent": {
+														"$ref": "TKTLOGIN000210"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000143"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000212",
+															"_parent": {
+																"$ref": "TKTLOGIN000211"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000144"
+															},
+															"parentStyle": true,
+															"left": 1052.5,
+															"top": 2091,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000213",
+															"_parent": {
+																"$ref": "TKTLOGIN000211"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000147"
+															},
+															"parentStyle": true,
+															"left": 1052.5,
+															"top": 2175,
+															"width": 1020,
+															"height": 1186
+														}
+													],
+													"left": 1052.5,
+													"top": 2091,
+													"width": 1020,
+													"height": 1270
+												}
+											],
+											"left": 1052.5,
+											"top": 2065,
+											"width": 1020,
+											"height": 1296,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000211"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000217",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000216"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:3445;1152.5:3445",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000218",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000214"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000219",
+													"_parent": {
+														"$ref": "TKTLOGIN000218"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000214"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000220",
+															"_parent": {
+																"$ref": "TKTLOGIN000219"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000215"
+															},
+															"parentStyle": true,
+															"left": 1052.5,
+															"top": 3405,
+															"width": 1020,
+															"height": 90
+														}
+													],
+													"left": 1052.5,
+													"top": 3405,
+													"width": 1020,
+													"height": 90
+												}
+											],
+											"left": 1052.5,
+											"top": 3379,
+											"width": 1020,
+											"height": 116,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000219"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000222",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000221"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:3513;1182.5:3513;1182.5:3533;1152.5:3533",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000223",
+													"_parent": {
+														"$ref": "TKTLOGIN000222"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000221"
+													},
+													"left": 1145.5,
+													"top": 3533,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000223"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000225",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000224"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:3567;332.5:3567",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000227",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000226"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:3611;127.5:3611",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000229",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000228"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:3673;332.5:3673",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000230",
+													"_parent": {
+														"$ref": "TKTLOGIN000229"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000228"
+													},
+													"left": 325.5,
+													"top": 3673,
+													"width": 14,
+													"height": 570
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000230"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000232",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000231"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:3717;362.5:3717;362.5:3737;332.5:3737",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000233",
+													"_parent": {
+														"$ref": "TKTLOGIN000232"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000231"
+													},
+													"left": 325.5,
+													"top": 3737,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000233"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000235",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000234"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:3771;1152.5:3771",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000236",
+													"_parent": {
+														"$ref": "TKTLOGIN000235"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000234"
+													},
+													"left": 1145.5,
+													"top": 3771,
+													"width": 14,
+													"height": 472
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000236"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000238",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000237"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"lineStyle": 2,
+											"points": "1152.5:3815;1357.5:3815",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000239",
+													"_parent": {
+														"$ref": "TKTLOGIN000238"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000237"
+													},
+													"left": 1350.5,
+													"top": 3815,
+													"width": 14,
+													"height": 378
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000239"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000241",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000240"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000026"
+											},
+											"lineStyle": 2,
+											"points": "1357.5:3859;1562.5:3859",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000242",
+													"_parent": {
+														"$ref": "TKTLOGIN000241"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000240"
+													},
+													"left": 1555.5,
+													"top": 3859,
+													"width": 14,
+													"height": 334
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000242"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000244",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000243"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000029"
+											},
+											"lineStyle": 2,
+											"points": "1562.5:3903;1767.5:3903",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000245",
+													"_parent": {
+														"$ref": "TKTLOGIN000244"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000243"
+													},
+													"left": 1760.5,
+													"top": 3903,
+													"width": 14,
+													"height": 290
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000245"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000247",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000246"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:3947;1972.5:3947",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000248",
+													"_parent": {
+														"$ref": "TKTLOGIN000247"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000246"
+													},
+													"left": 1965.5,
+													"top": 3947,
+													"width": 14,
+													"height": 52
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000248"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000250",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000249"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000035"
+											},
+											"lineStyle": 2,
+											"points": "1972.5:3991;1767.5:3991",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000254",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000253"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:4101;1152.5:4101",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000257",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000256"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000023"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000032"
+											},
+											"lineStyle": 2,
+											"points": "1767.5:4185;1152.5:4185",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLCombinedFragmentView",
+											"_id": "TKTLOGIN000258",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000251"
+											},
+											"subViews": [
+												{
+													"_type": "UMLInteractionOperandCompartmentView",
+													"_id": "TKTLOGIN000259",
+													"_parent": {
+														"$ref": "TKTLOGIN000258"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000251"
+													},
+													"parentStyle": true,
+													"subViews": [
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000260",
+															"_parent": {
+																"$ref": "TKTLOGIN000259"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000252"
+															},
+															"parentStyle": true,
+															"left": 1052.5,
+															"top": 4061,
+															"width": 1020,
+															"height": 84
+														},
+														{
+															"_type": "UMLInteractionOperandView",
+															"_id": "TKTLOGIN000261",
+															"_parent": {
+																"$ref": "TKTLOGIN000259"
+															},
+															"model": {
+																"$ref": "TKTLOGIN000255"
+															},
+															"parentStyle": true,
+															"left": 1052.5,
+															"top": 4145,
+															"width": 1020,
+															"height": 90
+														}
+													],
+													"left": 1052.5,
+													"top": 4061,
+													"width": 1020,
+													"height": 174
+												}
+											],
+											"left": 1052.5,
+											"top": 4035,
+											"width": 1020,
+											"height": 200,
+											"operandCompartment": {
+												"$ref": "TKTLOGIN000259"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000263",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000262"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"lineStyle": 2,
+											"points": "127.5:4271;332.5:4271",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000264",
+													"_parent": {
+														"$ref": "TKTLOGIN000263"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000262"
+													},
+													"left": 325.5,
+													"top": 4271,
+													"width": 14,
+													"height": 336
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000264"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000266",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000265"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:4315;537.5:4315",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000267",
+													"_parent": {
+														"$ref": "TKTLOGIN000266"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000265"
+													},
+													"left": 530.5,
+													"top": 4315,
+													"width": 14,
+													"height": 194
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000267"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000269",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000268"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000017"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:4359;742.5:4359",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000270",
+													"_parent": {
+														"$ref": "TKTLOGIN000269"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000268"
+													},
+													"left": 735.5,
+													"top": 4359,
+													"width": 14,
+													"height": 34
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000270"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000272",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000271"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000014"
+											},
+											"lineStyle": 2,
+											"points": "537.5:4403;947.5:4403",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000273",
+													"_parent": {
+														"$ref": "TKTLOGIN000272"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000271"
+													},
+													"left": 940.5,
+													"top": 4403,
+													"width": 14,
+													"height": 106
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000273"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000275",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000274"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4447;977.5:4447;977.5:4467;947.5:4467",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000276",
+													"_parent": {
+														"$ref": "TKTLOGIN000275"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000274"
+													},
+													"left": 940.5,
+													"top": 4467,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000276"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000278",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000277"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000020"
+											},
+											"lineStyle": 2,
+											"points": "947.5:4501;332.5:4501",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000280",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000279"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:4545;362.5:4545;362.5:4565;332.5:4565",
+											"showProperty": true,
+											"showType": true,
+											"subViews": [
+												{
+													"_type": "UMLActivationView",
+													"_id": "TKTLOGIN000281",
+													"_parent": {
+														"$ref": "TKTLOGIN000280"
+													},
+													"model": {
+														"$ref": "TKTLOGIN000279"
+													},
+													"left": 325.5,
+													"top": 4565,
+													"width": 14,
+													"height": 26
+												}
+											],
+											"activation": {
+												"$ref": "TKTLOGIN000281"
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "TKTLOGIN000283",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"model": {
+												"$ref": "TKTLOGIN000282"
+											},
+											"head": {
+												"$ref": "TKTLOGIN000008"
+											},
+											"tail": {
+												"$ref": "TKTLOGIN000011"
+											},
+											"lineStyle": 2,
+											"points": "332.5:4599;127.5:4599",
+											"showProperty": true,
+											"showType": true,
+											"subViews": []
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000284",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "LÉGENDE — [SEC n°X] : fonction de sécurité n°X du rapport (28 points).  ⚠ : point faible relevé par l'audit.  Flèche pleine : appel ; pointillés : réponse.  Le numéro de message (n) est indiqué dans chaque note.",
+											"fillColor": "#F2F2F2",
+											"left": 2130,
+											"top": 95,
+											"width": 420,
+											"height": 78
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000285",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "PARTIE A — Lancement de l'app et restauration de session",
+											"fillColor": "#D6E6FF",
+											"left": 2130,
+											"top": 181,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000286",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "(msg 4) Session Firebase persistée dans AsyncStorage, non chiffré. expo-secure-store et la biométrie ne sont pas encore intégrés.",
+											"fillColor": "#FFDCC2",
+											"left": 2130,
+											"top": 309,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000287",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "PARTIE B — Connexion avec Google puis Firebase  [SEC n°1]",
+											"fillColor": "#D6E6FF",
+											"left": 2130,
+											"top": 687,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000288",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°1] (msg 12) Client OAuth « Web » lu dans EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID (valeur publique, aucun secret dans l'app). Erreur claire si la variable manque.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 829,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000289",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°1] (msg 19) Firebase vérifie le jeton Google côté serveur Google. Tiketly ne manipule jamais de mot de passe.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 1213,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000290",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "(msg 22) La pile présentation + connexion est vidée : le bouton retour ne ramène pas à l'écran de connexion.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 1355,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000291",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "(msg 25) Le détail technique reste dans la console ; l'utilisateur ne voit qu'un message simple.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 1611,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000292",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "PARTIE C — Garde d'accès et récupération du profil (GET /api/users/me)  [SEC n°2, 3, 5, 6]",
+											"fillColor": "#D6E6FF",
+											"left": 2130,
+											"top": 1665,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000293",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°28] (msg 28) Chaque requête de profil porte une clé uid:tentative : la réponse d'un ancien compte ou d'une ancienne requête est ignorée.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 1761,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000294",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°2] (msg 33) Jeton Firebase joint à chaque requête. Adresse lue dans EXPO_PUBLIC_API_URL. Délai max 15 s (AbortController).",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 1981,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000295",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "⚠ (msg 33) api.js accepte aussi http:// : HTTPS n'est pas imposé pour un build de production.",
+											"fillColor": "#FFDCC2",
+											"left": 2130,
+											"top": 2051,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000296",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°19, 20] (msg 34) En-têtes de sécurité Helmet, x-powered-by désactivé, corps JSON limité à 100 ko.  [SEC n°22] Variables d'environnement validées par Zod au démarrage du serveur.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 2105,
+											"width": 420,
+											"height": 78
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000297",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°16] (msg 35) Limite de 300 requêtes / 15 min sur /api.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 2191,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000298",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "⚠ (msg 35) Sans app.set(\"trust proxy\"), derrière Render, tous les clients partagent le même compteur (IP du proxy).",
+											"fillColor": "#FFDCC2",
+											"left": 2130,
+											"top": 2245,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000299",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°2] (msg 38) Vérification de la signature (clés publiques Google), de l'expiration, de l'audience (FIREBASE_PROJECT_ID) et de l'émetteur.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 2433,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000300",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "⚠ (msg 38) checkRevoked n'est pas activé : un compte révoqué ou désactivé garde l'accès jusqu'à l'expiration du jeton (≤ 1 h).",
+											"fillColor": "#FFDCC2",
+											"left": 2130,
+											"top": 2503,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000301",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°5] (msg 40) L'identité vient uniquement du jeton vérifié (req.auth.uid), jamais d'un identifiant envoyé par l'app.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 2627,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000302",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°18] (msg 41) Requêtes SQL paramétrées ($1, $2…) : pas d'injection SQL.  [SEC n°23] Connexion TLS vérifiée (sslmode=verify-full).",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 2697,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000303",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "(msg 46) Une fiche créée par l'admin n'est reprise que si email_verified = true.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 3125,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000304",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "⚠ (msg 46) À restreindre aux fiches jamais utilisées si on ajoute la connexion email + mot de passe.",
+											"fillColor": "#FFDCC2",
+											"left": 2130,
+											"top": 3179,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000305",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°6] (msg 49) Rôle par défaut : CITOYEN. Aucune route ne permet de modifier son propre rôle.  [SEC n°27] Création idempotente si deux requêtes arrivent en même temps.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 3253,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000306",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°21] (msg 51) Les détails internes restent dans les logs du serveur, jamais dans la réponse.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 3459,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000307",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "PARTIE D — Accès à un espace protégé après connexion (ex. /admin)  [SEC n°3, 4]",
+											"fillColor": "#D6E6FF",
+											"left": 2130,
+											"top": 3643,
+											"width": 420,
+											"height": 46
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000308",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°3, 4] (msg 56) Garde côté app : sinon <Redirect /accueil>. Ce n'est qu'un confort d'affichage : le backend fait foi.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 3741,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000309",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "[SEC n°3, 4] (msg 61) Le rôle est relu en base à chaque requête : un changement de rôle s'applique immédiatement.  [SEC n°17] Paramètres validés par Zod (role, page, limit).",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 4005,
+											"width": 420,
+											"height": 62
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000310",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "PARTIE E — Déconnexion",
+											"fillColor": "#D6E6FF",
+											"left": 2130,
+											"top": 4241,
+											"width": 420,
+											"height": 30
+										},
+										{
+											"_type": "UMLNoteView",
+											"_id": "TKTLOGIN000311",
+											"_parent": {
+												"$ref": "TKTLOGIN000005"
+											},
+											"text": "(msg 68) La session Firebase est fermée même si la déconnexion Google échoue. Le compte Google est oublié : le sélecteur réapparaît à la prochaine connexion.",
+											"fillColor": "#FFF6CC",
+											"left": 2130,
+											"top": 4417,
+											"width": 420,
+											"height": 62
+										}
+									]
+								}
+							],
+							"messages": [
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000036",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "ouvre Tiketly",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000039",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "splash + polices + thème (_layout.jsx)",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000042",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "onAuthStateChanged() (useAuthUser)",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000045",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "restaure la session (AsyncStorage)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000048",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "user | null",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000052",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "<Redirect /accueil> → partie C",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000056",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "écran de présentation (index.jsx)",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000058",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "« Commencer » / « J'ai déjà un compte »",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000061",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "écran de connexion (login.jsx)",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000067",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "« Continuer avec Google »",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000070",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "signInWithGoogle()",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000073",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "ensureConfigured() : webClientId",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000076",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "hasPlayServices()",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000079",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "GoogleSignin.signIn()",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000082",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "sélecteur de compte Google",
+									"source": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000085",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "choisit son compte",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000090",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "idToken Google (signé par Google)",
+									"source": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000092",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "signInWithCredential(GoogleAuthProvider.credential)",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000095",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "vérifie l'idToken, crée/relie le compte (uid)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000098",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "user Firebase (session persistée)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000100",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "{ status: \"success\", user }",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000102",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "router.dismissAll() + replace(/accueil)",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000106",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "annulation",
+									"source": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000108",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "{ status: \"cancelled\" } (rien affiché)",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000111",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "{ status: \"error\", message }",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000113",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "message d'erreur générique",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000120",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "garde (app)/_layout : !user → Redirect /",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000123",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "UserProfileProvider : clé uid:tentative",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000126",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "fetchCurrentUser() → apiGet(\"/api/users/me\")",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000129",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "auth.currentUser ? (sinon ApiError 401)",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000132",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "user.getIdToken()",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000135",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "ID token Firebase (JWT, ~1 h, renouvelé)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000137",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "GET /api/users/me  Authorization: Bearer <idToken>",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000140",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "helmet + CORS + express.json(100 ko)",
+									"source": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000145",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "429 Too Many Requests",
+									"source": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000148",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "requireAuth(req)",
+									"source": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000153",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "401 « Authentification requise »",
+									"source": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000156",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "verifyIdToken(idToken) — Firebase Admin SDK",
+									"source": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000161",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "401 « Jeton invalide ou expiré »",
+									"source": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000164",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "next() — req.auth = { uid, email, emailVerified }",
+									"source": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000167",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "findById(req.auth.uid)",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000170",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "profil | null",
+									"source": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000174",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "fillNameIfEmpty() (si nom vide)",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000177",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "200 { success, data: profil }",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000180",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "400 « compte sans adresse email »",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000183",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "claimByEmail(uid, email)",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000186",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "fiche créée par l'admin | null",
+									"source": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000188",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "200 profil repris",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000191",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "createIfMissing() — ON CONFLICT DO NOTHING",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000194",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "201 profil citoyen (rôle 1)",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000216",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "500 « Erreur interne du serveur »",
+									"source": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000221",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "response.ok && success ? sinon ApiError",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000224",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "profil { rôle, établissement } | ApiError",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000226",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "accueil + actions du rôle, ou erreur « Réessayer »",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000228",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "ouvre « Gestion des utilisateurs »",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000231",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "garde admin/_layout : rôle = ADMIN ?",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000234",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "fetchUsers() → GET /api/users",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000237",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "GET /api/users  Bearer <idToken>",
+									"source": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000240",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "requireAuth → verifyIdToken",
+									"source": {
+										"$ref": "TKTLOGIN000024"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000243",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "requireRole(ADMIN_SYSTEME)",
+									"source": {
+										"$ref": "TKTLOGIN000027"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000246",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "findById(uid) : rôle relu en base",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000249",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "utilisateur + rôle",
+									"source": {
+										"$ref": "TKTLOGIN000033"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000253",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "403 « Accès réservé »",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000256",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "200 données",
+									"source": {
+										"$ref": "TKTLOGIN000030"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000021"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000262",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "« Se déconnecter » (profil.jsx)",
+									"source": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000265",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "signOut()",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000268",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "GoogleSignin.signOut()",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000015"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000271",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "signOut(auth)",
+									"source": {
+										"$ref": "TKTLOGIN000012"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000274",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "efface la session (AsyncStorage)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000277",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "onAuthStateChanged(null)",
+									"source": {
+										"$ref": "TKTLOGIN000018"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "reply"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000279",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "garde (app)/_layout → Redirect /",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"messageSort": "synchCall"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "TKTLOGIN000282",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "écran de présentation",
+									"source": {
+										"$ref": "TKTLOGIN000009"
+									},
+									"target": {
+										"$ref": "TKTLOGIN000006"
+									},
+									"messageSort": "reply"
+								}
+							],
+							"participants": [
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000006",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Utilisateur"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000009",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "App mobile (écrans)"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000012",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "google-auth.js"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000015",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Google Sign-In"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000018",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Firebase Auth (client)"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000021",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "api.js"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000024",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Backend Express"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000027",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "requireAuth + Admin SDK"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000030",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Routes /me + requireRole"
+								},
+								{
+									"_type": "UMLLifeline",
+									"_id": "TKTLOGIN000033",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "PostgreSQL (Neon)"
+								}
+							],
+							"fragments": [
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000050",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Session ?",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000051",
+											"_parent": {
+												"$ref": "TKTLOGIN000050"
+											},
+											"guard": "session valide (user ≠ null)"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000055",
+											"_parent": {
+												"$ref": "TKTLOGIN000050"
+											},
+											"guard": "aucune session"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000088",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Réponse Google",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000089",
+											"_parent": {
+												"$ref": "TKTLOGIN000088"
+											},
+											"guard": "succès avec idToken"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000105",
+											"_parent": {
+												"$ref": "TKTLOGIN000088"
+											},
+											"guard": "annulé par l'utilisateur / IN_PROGRESS"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000110",
+											"_parent": {
+												"$ref": "TKTLOGIN000088"
+											},
+											"guard": "erreur : pas d'idToken, Play Services absent…"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000143",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Rate limiting",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000144",
+											"_parent": {
+												"$ref": "TKTLOGIN000143"
+											},
+											"guard": "quota dépassé (300 req / 15 min par IP)"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000147",
+											"_parent": {
+												"$ref": "TKTLOGIN000143"
+											},
+											"guard": "sous la limite"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000151",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "En-tête Authorization",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000152",
+											"_parent": {
+												"$ref": "TKTLOGIN000151"
+											},
+											"guard": "absent ou sans « Bearer »"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000155",
+											"_parent": {
+												"$ref": "TKTLOGIN000151"
+											},
+											"guard": "jeton présent"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000159",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Jeton Firebase",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000160",
+											"_parent": {
+												"$ref": "TKTLOGIN000159"
+											},
+											"guard": "invalide ou expiré"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000163",
+											"_parent": {
+												"$ref": "TKTLOGIN000159"
+											},
+											"guard": "jeton valide"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000172",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Profil en base",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000173",
+											"_parent": {
+												"$ref": "TKTLOGIN000172"
+											},
+											"guard": "profil existant"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000179",
+											"_parent": {
+												"$ref": "TKTLOGIN000172"
+											},
+											"guard": "aucun profil et aucun email"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000182",
+											"_parent": {
+												"$ref": "TKTLOGIN000172"
+											},
+											"guard": "aucun profil, email vérifié"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000190",
+											"_parent": {
+												"$ref": "TKTLOGIN000172"
+											},
+											"guard": "aucune fiche à reprendre : nouveau compte"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000214",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Erreur serveur",
+									"interactionOperator": "opt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000215",
+											"_parent": {
+												"$ref": "TKTLOGIN000214"
+											},
+											"guard": "exception non gérée (5xx)"
+										}
+									]
+								},
+								{
+									"_type": "UMLCombinedFragment",
+									"_id": "TKTLOGIN000251",
+									"_parent": {
+										"$ref": "TKTLOGIN000004"
+									},
+									"name": "Autorisation",
+									"interactionOperator": "alt",
+									"operands": [
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000252",
+											"_parent": {
+												"$ref": "TKTLOGIN000251"
+											},
+											"guard": "rôle non autorisé ou compte absent"
+										},
+										{
+											"_type": "UMLInteractionOperand",
+											"_id": "TKTLOGIN000255",
+											"_parent": {
+												"$ref": "TKTLOGIN000251"
+											},
+											"guard": "rôle autorisé"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
